@@ -11,7 +11,7 @@ class Solution(object):
                 seen.append(copy[i])
             else:
                 nums.remove(copy[i])
-        return numslength;
+        return numslength
         """
         :type nums: List[int]
         :rtype: int
