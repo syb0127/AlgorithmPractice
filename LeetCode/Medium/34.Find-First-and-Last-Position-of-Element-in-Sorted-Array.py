@@ -16,7 +16,3 @@ class Solution:
         if lst[middle] > target:
             return self.binarySearch(lst, left, middle, target, is_starting)
 
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
-        starting_position = self.binarySearch(nums, 0, len(nums), target, True)
-        ending_position = self.binarySearch(nums, 0, len(nums), target, False)
-        return [starting_position, ending_position]
