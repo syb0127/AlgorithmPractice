@@ -12,3 +12,4 @@ class Solution:
                     stack.append(path)
         
         return "/"+"/".join(stack)
+    
