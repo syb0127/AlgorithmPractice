@@ -10,4 +10,4 @@ class Solution:
         for i in range(k-1):
             heapq.heappop(heap)
         final = heapq.heappop(heap) * -1
-        return final
+        return final 
