@@ -17,3 +17,4 @@ class Solution:
         
         recursiveInorder(root)
         return lst[k-1]
+    
